@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/data
+Content-Type: application/json
+
+{
+  "owner": "owner1",
+  "data": "Here is some data"
+}
+
+###
+PUT http://localhost:8080/api/data/1
+Content-Type: application/json
+
+{
+  "owner": "owner2",
+  "data": "unicast"
+}
